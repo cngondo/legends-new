@@ -13,3 +13,33 @@
 .fontfor{
     font-family: robotolight;
 }
+/*The landing and the overlay.*/
+.landing{
+    height: 800px;
+    background: url('../assets/bg2_redone.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    display: block;
+    max-width: 100%;
+}
+.overlay{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.line-seperator{
+    height: 1px;
+    background: #ffffff;
+    /*border-bottom: 1px solid #ffffff;*/
+}
+
+.overlay h5{
+    font-size: 18px;
+    text-align: center;
+}
