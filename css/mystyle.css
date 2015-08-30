@@ -32,6 +32,11 @@
     height: 800px;
     background: rgba(0, 0, 0, 0.5);
 }
+.icon{
+    padding-top: 45px;
+    padding-left: 50px;
+}
+
 
 .line-seperator{
     height: 1px;
@@ -42,4 +47,12 @@
 .overlay h5{
     font-size: 18px;
     text-align: center;
+}
+#learn{
+    width: 300px;
+    border-radius: 20px;
+}
+#services{
+    width: inherit;
+    height: 600px;
 }
