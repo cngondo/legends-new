@@ -3,36 +3,69 @@
 <head>
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css/materialize.min.css">
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery-scrollto.js"></script>
+
 </head>
 <body>
     <div class="landing">
         <div class="overlay">
             <div class="row header center-text white-text">
                 <div class="col s4">
-                    <br>
+                    <div class="icon">
+                        <i class="small material-icons">menu</i>
+<!--                        The awesome menu goes here-->
+                    </div>
                 </div>
-                <div class="col s4 fontfor">
+                <div class="col s4 fontfor center-align">
                     <br />
                     <br />
                     <br />
                     <br />
                     <br />
-                    <h1 class="center-align">LEGENDS</h1>
+                    <h1>LEGENDS</h1>
                     <div class="line-seperator"></div>
-                    <h4 class="center-align">INVESTMENT GROUP</h4>
+                    <h4>INVESTMENT GROUP</h4>
                     <div class="line-seperator"></div>
                                         <br />
                     <br />
                     <h5>INSPIRING AND SHAPING AFRICA'S ECONOMY</h5>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <button id="learn"
+                       class="waves-effect btn-large #0d47a1 blue darken-4" onclick="scrollservices()">Learn More</button>
                 </div>
                  <div class="col s4">
                     <br>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
+    <div id="services" class="row">
+       <h3 class="thin blue-text text-darken-4 center-align">Services</h3>
+
+
+    </div>
+     <div id="team" class="row">
+
+    </div>
+    <div id="contactus" class="row">
+
+    </div>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script>
+        // $(document).ready( function() {
+        //     $(".sidemenu").square_menu({
+        //         flyDirection: "bottom",
+        //         button: "Menu",
+        //         animationStyle: "vertical",
+        //         closeButton: "X"
+        //     });
+        // })
+    </script>
 </body>
 </html>
