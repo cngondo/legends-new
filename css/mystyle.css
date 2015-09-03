@@ -70,3 +70,7 @@
 #services{
     height: 600px;
 }
+
+#services p{
+    font-size: 25px;
+}
