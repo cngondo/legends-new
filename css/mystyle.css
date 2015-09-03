@@ -41,10 +41,10 @@
 }
 .overlay{
     width: 100%;
+    height: 800px;
     position: absolute;
     top: 0;
     left: 0;
-    height: 800px;
     background: rgba(0, 0, 0, 0.5);
 }
 .icon{
@@ -73,4 +73,33 @@
 
 #services p{
     font-size: 25px;
+}
+.services-image{
+    width: 400px;
+    height: 400px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20%;
+}
+#realestate{
+    background-image: url('../assets/real_estate.jpg');
+
+}
+#rental{
+    background-image: url(../assets/rent-a-car-664986_640.jpg);
+}
+#poultry{
+    background-image: url(../assets/hahn-66341_640.jpg);
+}
+#pro{
+    width: 100%;
+    height: 600px;
+    background: url('../assets/tie-690084_1280.jpg');
+    position: relative;
+}
+#pro-overlay{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
 }
