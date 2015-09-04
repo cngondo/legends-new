@@ -6,3 +6,11 @@ function scrollservices(){
             durationMode: 'all'
         });
 }
+//Scrolling effects for navigation menu
+var options[
+    {selector:'.navigation', offset:'800', callback:'changeColor()'}
+];
+function changeColor(){
+
+}
+Materialize.scrollFire(options);
