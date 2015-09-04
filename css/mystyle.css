@@ -47,6 +47,10 @@
     left: 0;
     background: rgba(0, 0, 0, 0.5);
 }
+.overlay h1{
+    font-size: 70px;
+    letter-spacing: 4px;
+}
 /*Code for navigation bar*/
 .navigation{
     width: 100%;
