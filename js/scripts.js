@@ -1,4 +1,16 @@
 //All scripts loaded here
+var navbottom = $('.overlay').offset().top + $('.overlay').height();
+
+$(window).on('scroll',function(){
+    // we round off here to reduce a little workload
+    var stop = Math.round($(window).scrollTop());
+    if (stop > navbottom) {
+        $('.navigation').addClass('pastnav');
+    } else {
+        $('.navigation').removeClass('pastnav');
+    }
+
+});
 
 function scrollservices(){
     $('#services').ScrollTo({
@@ -7,10 +19,11 @@ function scrollservices(){
         });
 }
 //Scrolling effects for navigation menu
-var options[
-    {selector:'.navigation', offset:'800', callback:'changeColor()'}
-];
-function changeColor(){
+//var options[
+//    {selector:'.navigation', offset:'800', callback:'changeColor()'}
+//];
+//function changeColor(){
+//
+//}
+//Materialize.scrollFire(options);
 
-}
-Materialize.scrollFire(options);
