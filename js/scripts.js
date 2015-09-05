@@ -18,6 +18,25 @@ function scrollservices(){
             durationMode: 'all'
         });
 }
+//The following invokes the click function when triggered
+$('#toservices').click(function (){
+    $('#services').ScrollTo({
+            duration: 2000,
+            durationMode: 'all'
+        });
+});
+$('#toteam').click(function (){
+    $('#team').ScrollTo({
+            duration: 2000,
+            durationMode: 'all'
+        });
+});
+$('#tocontactus').click(function (){
+    $('#contactus').ScrollTo({
+            duration: 2000,
+            durationMode: 'all'
+        });
+});
 //Scrolling effects for navigation menu
 //var options[
 //    {selector:'.navigation', offset:'800', callback:'changeColor()'}
