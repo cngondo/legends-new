@@ -101,7 +101,7 @@
     border-radius: 20px;
 }
 #services{
-    height: 600px;
+    height: auto;
 }
 
 #services p{
@@ -124,7 +124,6 @@
 }
 #realestate{
     background-image: url('../assets/real_estate.jpg');
-    margin: 1px;
 }
 #rental{
     background-image: url(../assets/rent-a-car-664986_640.jpg);
@@ -144,6 +143,14 @@
     height: 600px;
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
+}
+#team{
+    width: 100%;
+    height: auto;
+}
+#contactus{
+    width: 100%;
+    height: auto;
 }
 #submit{
     width: 200px;
