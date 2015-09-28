@@ -124,7 +124,7 @@
 }
 #realestate{
     background-image: url('../assets/real_estate.jpg');
-
+    margin: 1px;
 }
 #rental{
     background-image: url(../assets/rent-a-car-664986_640.jpg);
