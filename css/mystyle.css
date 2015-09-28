@@ -82,8 +82,6 @@
     padding: 5px 10px 10px 0;
     margin-top: 20px;
 }
-
-
 /*end of navbar*/
 .icon{
     padding-top: 45px;
@@ -113,8 +111,16 @@
     width: 400px;
     height: 400px;
     background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 20%;
+    position: relative;
+}
+.services-overlay{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    background-size: cover;
 }
 #realestate{
     background-image: url('../assets/real_estate.jpg');
@@ -122,9 +128,10 @@
 }
 #rental{
     background-image: url(../assets/rent-a-car-664986_640.jpg);
+
 }
 #poultry{
-    background-image: url(../assets/hahn-66341_640.jpg);
+    background-image: url(../assets/kuku.jpg);
 }
 #pro{
     width: 100%;
