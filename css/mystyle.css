@@ -102,6 +102,7 @@
 }
 #services{
     height: auto;
+    overflow-x: hidden;
 }
 
 #services p{
@@ -124,14 +125,27 @@
 }
 #realestate{
     background-image: url('../assets/real_estate.jpg');
+    position: relative;
 }
+.realestate-overlay{
+    width: 100%;
+    height: 100%;
+    padding-right: 10%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
 #rental{
     background-image: url(../assets/rent-a-car-664986_640.jpg);
+    position: relative;
 
 }
 #poultry{
     background-image: url(../assets/kuku.jpg);
+    position: relative;
 }
+
 #pro{
     width: 100%;
     height: 600px;
