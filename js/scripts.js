@@ -9,7 +9,6 @@ $(window).on('scroll',function(){
     } else {
         $('.navigation').removeClass('pastnav');
     }
-
 });
 
 function scrollservices(){
@@ -45,4 +44,3 @@ $('#tocontactus').click(function (){
 //
 //}
 //Materialize.scrollFire(options);
-

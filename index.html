@@ -1,8 +1,10 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -11,26 +13,31 @@
 <body>
     <div class="landing">
         <div class="overlay">
+          <div id="legends">
             <div class="row header center-text white-text">
                 <div class="navigation center-align thin">
                     <div class="row">
-                        <ul>
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a id="toservices">SERVICES</a></li>
-                            <li><a id="toteam">TEAM</a></li>
-                            <li><a id="tocontactus">CONTACT US</a></li>
-                        </ul>
+                      <div class="container">
+                        <div class="col s4">
+                          <!-- TODO:: Put Logo here -->
+                          <br />
+                        </div>
+                        <div class="col s8">
+                          <ul>
+                              <li><a href="index.html">HOME</a></li>
+                              <li><a id="toservices">SERVICES</a></li>
+                              <li><a id="toteam">TEAM</a></li>
+                              <li><a id="tocontactus">CONTACT US</a></li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                 </div>
-                <div class="col s4">
-                   <br />
-                </div>
-                <div class="col s4 fontfor center-align">
-                    <br />
-                     <br />
-                     <br />
-                     <br />
-                    <br />
+                <div class="col s4 offset-s1 typo left-align animated fadeInRightBig">
+                  <div id="welcome">
+                    <br>
+                    <br>
+                    <br>
                     <h1>LEGENDS</h1>
                     <div class="line-seperator"></div>
                     <h4>INVESTMENT GROUP</h4>
@@ -40,20 +47,13 @@
                     <h5>INSPIRING AND SHAPING AFRICA'S ECONOMY</h5>
                     <br />
                     <br />
-                    <br />
-                    <br />
-                    <button id="learn"
-                       class="waves-effect btn-large #0d47a1 blue darken-4" onclick="scrollservices()">Learn More</button>
-                </div>
-                 <div class="col s4">
-<!--
-                     <div class="icon right-align">
-                        <i class="small material-icons">menu</i>
-                        The awesome menu goes here
-                    </div>
--->
+                    <a class="waves-effect btn-large #304ffe indigo accent-4" onclick="scrollservices()">
+                       Learn More
+                     </a>
+                  </div>
                 </div>
             </div>
+          </div>
         </div>
     </div>
 <!------------------- Services Section -------------------------------->
@@ -75,7 +75,7 @@
                       Having a trip to Kenya,or to Nairobi,call our transport officer,
                         book a luxury car and explore Kenya in comfort.
                     </p>
-                    
+
                 </div>
             </div>
              <div class="col s4 services-image" id="poultry">
@@ -229,7 +229,7 @@
             Talk to us today...
         </h2>
         <div class="col s3"></div>
-        <form class="col s12 center-align" name="Legends" 
+        <form class="col s12 center-align" name="Legends"
               action="mailto:devngondo@gmail.com" enctype="text/plain"
               method="post">
             <div class="input-field col s6 offset-s3">
@@ -269,7 +269,7 @@
                 </p>
             <a class="grey-text text-lighten-4 right" href="#!"></a>
             </div>
-          </div>   
+          </div>
     </footer>
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>
